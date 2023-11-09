@@ -1,0 +1,88 @@
+body{
+  background-color: rgb(33, 33, 33);
+  width: 100%;
+  height: 100%;
+
+}
+   
+nav{
+  background-color:goldenrod;
+  height: 60px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  border-radius: 80px;
+  margin-top: 60px;
+}
+ 
+.link{
+  text-decoration: none;
+  font-size: 35px;
+  color: snow;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 25px;
+}
+
+.link:hover{
+  font-weight:bold ;
+  color:goldenrod
+  
+}
+
+nav:hover{
+  background-color: black;
+  border-radius: 80px;  
+}
+
+.nusin{
+   max-width: 960px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   
+  margin-top: 40px;
+  border: 8px solid goldenrod;
+  text-align: center;
+  width: 30%;
+  height: 70%;
+  color: snow;
+  font-size:30px;
+  margin:30px;
+  border-radius: 30px;
+    font-family: monospace;
+  }
+  
+
+img{
+  width: 40%;
+  margin: 40px;;
+  border-radius :80px;
+}
+
+
+  #saraki{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:100% ;
+    flex-wrap: wrap;
+   background-color: rgb(25, 25, 25);
+   background-image: url(./wena/dark-black-grunge-abstract-texture-background-wall-cement-concrete_130147-2265.jpg);
+
+  }
+ 
+  footer{
+    background-color: goldenrod;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 100px;
+    height: 50px;
+    text-align: center;
+    color:snow;
+    font-size: 40px;
+    border-radius: 20px;
+   
+
+  }
